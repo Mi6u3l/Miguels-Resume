@@ -74,9 +74,9 @@ var projects = {
 			"progress": 100
 		},
 		{
-			"title": "Resume",
+			"title": "Portfolio",
 			"date worked": "Oct, 2014",
-			"description": "Resume project for Udacity Front-end Web Development Nanodegree",
+			"description": "Portfolio project for Udacity Front-end Web Development Nanodegree",
 			"github": "https://github.com/Mi6u3l/frontend-nanodegree-resume",
 			"demo": "http://Mi6u3l.github.io/frontend-nanodegree-resume/",
 			"progress": 100
