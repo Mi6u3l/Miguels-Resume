@@ -155,7 +155,7 @@ var bio = {
 	"first name": "Miguel",
 	"last name": "Gomes",
 	"role": "Full-Stack Web Developer",
-	"welcome message": "I've been working the last 9 years as a .Net / SharePoint consultant, I'm now specialising in HTML, CSS and JavaScript to create beautiful web experiences.",
+	"welcome message": "I've been working the last 9 years as a .Net / SharePoint consultant, I'm now specialising in HTML, CSS and JavaScript to provide engaging web experiences.",
 	"contacts": 
 		{
 			"mobile number": "+353 (0) 1 254 9037" ,
