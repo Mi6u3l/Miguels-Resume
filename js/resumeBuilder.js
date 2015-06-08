@@ -58,17 +58,17 @@ work.display = function(){
 var projects = {
 	"projects": [
 		{
-			"title": "Neighborhood Map",
+			"title": "Neighbourhood Map",
 			"date worked": "Dec, 2014 - Jan, 2015",
-			"description": "Neighborhood Map project for Udacity Front-end Web Development Nanodegree",
-			"github": "https://github.com/mi6u3l/neighborhood-map-seperate-model",
-			"demo": "http://Mi6u3l.github.io/Neighborhood-Map",
+			"description": "Neighborhood Map project",
+			"github": "https://github.com/mi6u3l/Neighborhood-map",
+			"demo": "http://Mi6u3l.github.io/Neighbourhood-Map",
 			"progress": 100
 		},
 		{
 			"title": "Arcade Game",
 			"date worked": "Nov, 2014",
-			"description": "Classic arcade game clone project for Udacity Front-end Web Development Nanodegree",
+			"description": " Arcade game clone",
 			"github": "https://github.com/Mi6u3l/Frogger-Arcade",
 			"demo": "http://Mi6u3l.github.io/Frogger-Arcade/",
 			"progress": 100
