@@ -62,7 +62,7 @@ var projects = {
 			"date worked": "Dec, 2014 - Jan, 2015",
 			"description": "Neighborhood Map project for Udacity Front-end Web Development Nanodegree",
 			"github": "https://github.com/mi6u3l/neighborhood-map-seperate-model",
-			"demo": "http://Mi6u3l.github.io/neighborhood-map-seperate-model/",
+			"demo": "http://Mi6u3l.github.io/Neighborhood-Map",
 			"progress": 100
 		},
 		{
@@ -78,7 +78,7 @@ var projects = {
 			"date worked": "Oct, 2014",
 			"description": "Portfolio project for Udacity Front-end Web Development Nanodegree",
 			"github": "https://github.com/Mi6u3l/frontend-nanodegree-resume",
-			"demo": "http://Mi6u3l.github.io/frontend-nanodegree-resume/",
+			"demo": "http://Mi6u3l.github.io/Portfolio/",
 			"progress": 100
 		},
 		{
