@@ -1,65 +1,143 @@
-* {
-  padding:0;
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+/* Generic Styles */
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+h2{
+  border-bottom: 2px solid #333;
+}
+
+span {
+  padding: 5px;
+}
+/* Header */
+.header-info{
+  text-align: left;
+  margin-top: 20px;
+}
+
+.header-info h1{
+  font-size: 100px;
+  line-height:0.9;
   margin:0;
-  font-family: 'Roboto', sans-serif;
+  display:inline;
 }
 
-.clearfix {
-  overflow: auto;
+.header-info h2{
+  color: #09c;
+  margin:0;
+  font-size:38px;
+  border-bottom:none;
+  margin-bottom: 5px;
+  
+}
+.header-info .welcome-message{
+  background: #09c;
+  color: #fff;
+  padding: 5px 10px;
+}
+.first-name{
+  font-weight:400;
+}
+.last-name{
+  font-weight:100;
 }
 
-.education-entry, .work-entry, .project-entry {
-  padding-left: 5%;
-  padding-right: 5%;
+/* Top Contact */
+#topContacts h2{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30px;
+  text-align:right;
+  padding-right:0;
+  font-weight:700;
+  border-bottom: 2px solid #333;
 }
 
-.education-entry{
+#topContacts ul{
+  float: right;
+  font-size: 16px;
+  list-style-type:none;
+}
 
+#topContacts ul li{
+  border-bottom: 1px solid #333;
+  padding:5px 0;
+}
+
+#topContacts ul li > span{
+  padding-right:20px;
+}
+
+/* Skills */
+.skills-chart-holder{
+  width:100%;
+  text-align: center;
+}
+#skills-list{
+  margin: 20px 0;
+  text-align: center;
+}
+#skills-list .label{
   margin: 5px;
 }
-
-h1 {
-  font-size: 40px;
-  color: #F5A623;
-  line-height: 48px;
-  display: inline;
+#skills-list .red{
+  background-color: #FF5A5E;
+}
+#skills-list .orange{
+  background-color: #f06613;
+}
+#skills-list .green{
+  background-color: #46BFBD;
+}
+#skills-list .darker-green{
+  background-color: #23582b;
+}
+#skills-list .yellow{
+  background-color: #FDB45C;
+}
+#skills-list .gray{
+  background-color: #A8B3C5;
+}
+#skills-list .darker-gray{
+  background-color: #616774;
 }
 
-h2 {
-  font-weight: bold;
+/* Education, Work and Project*/
+.education-entry, .work-entry, .project-entry {
+  margin: 15px 0;
+  
+}
+
+.entry-name,
+.entry-location{
+  font-size: 18px;
+  color:#09c;
+}
+span.entry-name,
+span.entry-location{
+  padding: 0;
+}
+.entry-name a{
+  color: #09c;
+  display:inline-block;
+  margin:0;
+}
+.entry-title{
   font-size: 24px;
-  color: #999999;
-  line-height: 29px;
-  padding: 10px;
 }
-
-h3 {
-  font-style: italic;
-  font-size: 20px;
-  color: #000000;
-  line-height: 22px;
-}
-
-h4 {
-  font-weight: bold;
+.entry-date{
   font-size: 14px;
-  color: #4A4A4A;
-  line-height: 17px;
 }
-
-h2, h3, h4, h5 {
-  padding:10px;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-
 .date-text {
   font-style: italic;
   font-size: 14px;
   color: #999999;
   line-height: 16px;
-  
+  float: left;
 }
 
 .location-text {
@@ -70,184 +148,36 @@ h2, h3, h4, h5 {
   float: right;
 
 }
-
-p {
-  font-size: 14px;
-  color: #333333;
-  line-height: 21px;
+.education-entry a{
+  display:inline-block;
+  margin:0;
+}
+.project-entry .entry-date{
+  color:#09c;
 }
 
-a {
-  color: #1199C3;
-  text-decoration: none;
-  margin-top: 10px;
-  display: block;
+.project-entry .btn,
+#skills-list .label{
+  border-radius:0;
 }
 
-.first-name{
-font-weight: 500;
-}
-
-.last-name{
-font-weight: 200;
-}
-
-.welcome-message {
-  font-style: italic;
-  font-size: 18px;
-  color: #F5AE23;
-  line-height: 28px;
-}
-
-.label{
+.project-entry .btn{
   margin: 5px;
 }
 
-#skillsH3 {
-  color: #F5AE23;
-  display: none;
+.project-entry .btn-info{
+  background: #09c;
+  border:0;
 }
 
-.skills-list
-{
-  height: 40px;
+.project-entry .btn-info:hover,
+.project-entry .btn-info:focus,
+.project-entry .btn-info:active{
+  background: #14A7D8;
 }
-
-
-.skills-chart-holder
-{
-  width: 100%;
-  text-align: center;
-}
-
-.darkgray{
-  background-color:#A8B3C5;
-}
-
-.orange {
-  background-color: #F5AE23;
-}
-
-.yellow{
-  background-color: #FDB45C;
-}
-
-.green{
-  background-color: #46BFBD;
-}
-
-.red{
-  background-color: #F7464A;
-}
-
-.orange-text {
-  color: #F5AE23;
-}
-
-.white-text {
-  font-weight: bold;
-  color: #FFFFFF;
-}
-
-.gray {
-  background-color: #D3D3D3;
-  padding-bottom: 10px;
-  clear:both;
-}
-
-.dark-gray {
-  background-color: #4A4A4A;
-}
-
-/* TODO: Replace with image later */
-#header {
-  
-}
-
-.header-info h1
-{
-font-size: 60px;
-}
-
-.header-info h2
-{
-font-size: 20px;
-margin-top: 0px;
-}
-
-.flex-box {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
-}
-
-.center-content {
-  padding-top: 2.5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 2.5%
-}
-
-ul {
-  list-style-type: none;
-}
-
-.biopic {
-  float: left;
-  padding: 10px;
-  width: 200px;
-  display: none;
-}
-
-img {
-  padding: 10px;
-}
-
-/* Bar chart stuff */
-.chart div {
-  font: 10px sans-serif;
-  background-color: #4A4A4A;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
-  height: 12px;
-  color: white;
-  display: inline-block;
-}
-
-span {
-  padding: 5px;
-}
-
-#letsConnect {
-  text-align: center;
-}
-
-@media only screen and (max-width: 1024px) {
-  #letsConnect {
-    margin-top: 5%;
-  }
-}
-
-@media only screen and (max-width:900px) {
-  .biopic {
-    width: 175px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  #letsConnect {
-    margin-top: 10%;
-  }
-  .biopic {
-    width: 150px;
-  }
-  .welcome-message {
-    display: none;
-  }
+/* Languages and Maps */
+.progress{
+  border-radius: 0;
 }
 
 #map {
@@ -261,9 +191,223 @@ span {
   padding-bottom: 5%;
 }
 
-@media only screen and (min-width: 750px) {
-  #skillsH3,
-  .biopic {
-    display: block;
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+  .header-info{
+    text-align: center;
+  }
+  .header-info h1{
+    font-size: 40px;
+  } 
+  .header-info h2{
+    font-size: 24px;
+  }
+  .header-info .welcome-message{
+    margin: 0 auto;
+  }
+  #topContacts{
+    float: left;
+  }
+  #topContacts h2{
+    text-align: left;
+  }
+
+  #topContacts ul li{
+    display: inline-block;
+    border-bottom: none;
+    padding: 5px;
+  }
+  #topContacts ul li span{
+    margin: 0;
+    padding-right: 5px;
   }
 }
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+  .header-info{
+    text-align: center;
+  }
+  .header-info h1{
+    font-size: 50px;
+  } 
+  .header-info h2{
+    font-size: 24px;
+  }
+  .header-info .welcome-message{
+    width: 445px;
+    margin: 0 auto;
+  }
+  #topContacts{
+    float: left;
+  }
+  #topContacts h2{
+    text-align: left;
+  }
+
+  #topContacts ul li{
+    display: inline-block;
+    border-bottom: none;
+    padding: 5px;
+  }
+  #topContacts ul li span{
+    margin: 0;
+    padding-right: 5px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+  .header-info{
+    text-align: center;
+  }
+  .header-info h1{
+    font-size: 50px;
+  } 
+  .header-info h2{
+    font-size: 31px;
+  }
+  .header-info .welcome-message{
+    width: 500px;
+    margin: 0 auto;
+  }
+  #topContacts{
+    float: left;
+  }
+  #topContacts h2{
+    text-align: left;
+  }
+
+  #topContacts ul li{
+    display: inline-block;
+    border-bottom: none;
+    padding: 5px;
+  }
+  #topContacts ul li span{
+    margin: 0;
+    padding-right: 5px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .header-info{
+    text-align: left;
+  }
+  .header-info h1{
+    font-size: 80px;
+  } 
+  .header-info h2{
+    font-size: 31px;
+  }
+  .header-info .welcome-message{
+    width: 100%;
+  }
+  #topContacts{
+    float: right;
+  }
+  #topContacts h2{
+    text-align: right;
+  }
+  #topContacts ul li{
+    display: block;
+    border-bottom: 1px solid #333;
+    padding: 5px 0;
+  }
+  #topContacts ul li span{
+    padding-right:20px;
+  }
+  
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .header-info{
+    text-align: left;
+  }
+  .header-info h1{
+    font-size: 100px;
+  } 
+  .header-info h2{
+    font-size: 38px;
+  }
+  .header-info .welcome-message{
+    width: 100%;
+  }
+  #topContacts{
+    float: right;
+  }
+  #topContacts h2{
+    text-align: right;
+  }
+  #topContacts ul li{
+    display: block;
+    border-bottom: 1px solid #333;
+    padding: 5px 0;
+  }
+  #topContacts ul li span{
+    padding-right:20px;
+  }
+}
+
+/* Project Progress Chart Style */
+
+/**
+ Copyright (c) 2014 BrightPoint Consulting, Inc.
+
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated documentation
+ files (the "Software"), to deal in the Software without
+ restriction, including without limitation the rights to use,
+ copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following
+ conditions:
+
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+.background {
+    fill: #FFFFFF;
+    fill-opacity: 0.01;
+}
+
+.component {
+    fill: #ccc;
+}
+
+.component .label {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-weight: 300;
+    text-anchor: middle;
+    fill: #09c;
+}
+
+.arc {
+    stroke-weight:0.01;
+    fill: #333;
+}
+
+.label {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-weight: 300;
+    text-anchor: middle;
+}
+
+.radial-svg {
+    display: block;
+    margin: 0 auto;
+}
+
+/* end Project Progress Chart Style */
