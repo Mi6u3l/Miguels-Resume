@@ -60,7 +60,11 @@ var projects = {
 		{
 			"title": "Neighbourhood Map",
 			"date worked": "Dec, 2014 - Jan, 2015",
+<<<<<<< HEAD
 			"description": "Neighborhood Map project.",
+=======
+			"description": "Neighborhood Map project",
+>>>>>>> 0fa0548fc9bf9bef413af700b2f9aeb0d8584d4c
 			"github": "https://github.com/mi6u3l/Neighborhood-map",
 			"demo": "http://Mi6u3l.github.io/Neighbourhood-Map",
 			"progress": 100
@@ -68,7 +72,11 @@ var projects = {
 		{
 			"title": "Arcade Game",
 			"date worked": "Nov, 2014",
+<<<<<<< HEAD
 			"description": " Arcade game clone project.",
+=======
+			"description": " Arcade game clone",
+>>>>>>> 0fa0548fc9bf9bef413af700b2f9aeb0d8584d4c
 			"github": "https://github.com/Mi6u3l/Frogger-Arcade",
 			"demo": "http://Mi6u3l.github.io/Frogger-Arcade/",
 			"progress": 100
