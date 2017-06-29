@@ -2,23 +2,37 @@
 //Work JSON 
 var work = {
 	"jobs":[
+	 {
+			"employer": "Datalynx Portugal",
+			"title": "Full-Stack .NET Developer",
+			"location": "Lisbon, Portugal",
+			"dates": "2017 - Present",
+			"description": "Technical analysis for software bespoke developments;<br>Software Development (.NET CORE MVC 6, JavaScript, AngularJS, HTML, CSS)."
+		},
+		{
+			"employer": "Paddy Power Betfair",
+			"title": "Software Delivery Manager",
+			"location": "Porto, Portugal",
+			"dates": "2015 - 2016",
+			"description": "Scrum Master;<br>Application of Agile/Lean knowledge within the team;<br>Tasks prioritisation throughout all phases of project lifecycle;<br>Technical direction for design, development, testing and deployment from definition phase through planning, implementation and maintenance;<br>Technology stack: HTML5, CSS3, SASS, Bootstrap, JavaScript, AngularJS, Node.js."
+		},
 	   {
 			"employer": "Ergo",
-			"title": "Senior Software Developer",
+			"title": "Team Lead",
 			"location": "Dublin, Ireland",
-			"dates": "2012 - Present",
+			"dates": "2012 - 2015",
 			"description": "Technical architecture analysis for web based applications;<br>Software development team coordination;<br>Monitoring and assisting delivery of development tasks;<br>Software Development (HTML5, CSS3, JavaScript, C# .net, SQL Server, SharePoint);<br>SharePoint Consultancy."
 		},
 		{
 			"employer": "Portugal Telecom",
-			"title": "Senior Software Developer",
+			"title": "Software Engineer",
 			"location": "Lisbon, Portugal",
 			"dates": "2011 - 2012",
 			"description": "Technical architecture analysis for web based applications;<br>Software development team coordination;<br>Monitoring and assisting delivery of development tasks;<br>Software Development (C# .net, JavaScript, SQL Server, SharePoint);<br>SharePoint Consultancy."
 		},
 		{
 			"employer": "Truewind",
-			"title": "Software Developer",
+			"title": "Software Engineer",
 			"location": "Lisbon, Portugal",
 			"dates": "2010 - 2011",
 			"description": "Technical architecture analysis for web based applications;<br>Software Development (C# .net, JavaScript, SQL Server, SharePoint);<br>SharePoint Consultancy."
@@ -58,27 +72,34 @@ work.display = function(){
 var projects = {
 	"projects": [
 		{
+			"title": "SPDMov",
+			"date worked": "Jan, 2017 - Present",
+			"description": "Portuguese society of movement disorders website.",
+			"demo": "http://23.94.156.22:9090",
+			"progress": 80
+		},
+		{
+			"title": "Start Wars Invaders",
+			"date worked": "Jun, 2017 - Jun, 2017",
+			"description": "Pet project.",
+			"github": "https://github.com/mi6u3l/SpaceInvaders",
+			"demo": "http://Mi6u3l.github.io/SpaceInvaders",
+			"progress": 90
+		},
+		{
 			"title": "Neighbourhood Map",
 			"date worked": "Dec, 2014 - Jan, 2015",
-<<<<<<< HEAD
-			"description": "Neighborhood Map project.",
-=======
-			"description": "Neighborhood Map project",
->>>>>>> 0fa0548fc9bf9bef413af700b2f9aeb0d8584d4c
+			"description": "Pet project.",
 			"github": "https://github.com/mi6u3l/Neighborhood-map",
-			"demo": "http://Mi6u3l.github.io/Neighbourhood-Map",
+			"demo": "http://Mi6u3l.github.io/NeighbourhoodMap",
 			"progress": 100
 		},
 		{
 			"title": "Arcade Game",
 			"date worked": "Nov, 2014",
-<<<<<<< HEAD
-			"description": " Arcade game clone project.",
-=======
-			"description": " Arcade game clone",
->>>>>>> 0fa0548fc9bf9bef413af700b2f9aeb0d8584d4c
+			"description": " Pet project.",
 			"github": "https://github.com/Mi6u3l/Frogger-Arcade",
-			"demo": "http://Mi6u3l.github.io/Frogger-Arcade/",
+			"demo": "http://Mi6u3l.github.io/Frogger/",
 			"progress": 100
 		},
 		{
@@ -86,7 +107,7 @@ var projects = {
 			"date worked": "Oct, 2014",
 			"description": "Portfolio project.",
 			"github": "https://github.com/Mi6u3l/frontend-nanodegree-resume",
-			"demo": "http://Mi6u3l.github.io/Portfolio/",
+			"demo": "http://Mi6u3l.github.io/",
 			"progress": 100
 		},
 		{
@@ -163,15 +184,15 @@ var bio = {
 	"first name": "Miguel",
 	"last name": "Gomes",
 	"role": "Full-Stack Web Developer",
-	"welcome message": "I've been working the last 9 years as a .Net / SharePoint consultant, I'm now specialising in HTML, CSS and JavaScript to provide engaging web experiences.",
+	"welcome message": "I've been working the last 10 years as a Software developer - C# .Net, SharePoint, JavaScript, HTML, CSS.",
 	"contacts": 
 		{
-			"mobile number": "+353 (0) 1 254 9037" ,
+			"mobile number": "+351 96 300 10 24" ,
 			"email": "miguel.bgomes.@gmail.com",
 			"github username": "mi6u3l",
-			"location": "Dublin, Ireland"
+			"location": "Barcelona, Spain"
 		},
-	"skills": ["HTML", "CSS", "JavaScript", "jQuery", "C#.net", "SharePoint", "Git"]
+	"skills": ["HTML", "CSS", "JavaScript", "jQuery", "C#.net", "SharePoint", "Scrum"]
 
 };
 bio.display = function(){
@@ -199,6 +220,22 @@ bio.display = function(){
 //Education JSON
 var education = {
 	"schools": [
+	{
+			"name": "University College Dublin",
+			"location": "Dublin, Ireland",
+			"degree": "Master",
+			"majors": ["Msc Advanced Software Engineering"],
+			"dates": "December 2018 (Expected)",
+			"url": "http://www.dbs.ie/"
+		},
+		{
+			"name": "Ironhack",
+			"location": "Barcelona, Spain",
+			"degree": "",
+			"majors": ["JavaScript Bootcamp"],
+			"dates": "August 2017",
+			"url": "http://www.ironhack.com/"
+		},
 		{
 			"name": "Dublin Business School",
 			"location": "Dublin, Ireland",
@@ -211,7 +248,7 @@ var education = {
 			"name": "Universidade Lusófona",
 			"location": "Lisbon, Portugal",
 			"degree": "Bachelor",
-			"majors": ["B.S. in Computer Science"],
+			"majors": ["BSc Computer Science"],
 			"dates": "June 2006",
 			"url": "http://www.ulusofona.pt"
 		}
@@ -296,10 +333,10 @@ var polarData = [
     labelcolor: "darker-green"
   },
   {
-    value: 4,
+    value: 8,
     color: "#4D5360",
     highlight: "#616774",
-    label: "Git",
+    label: "Scrum",
     labelcolor: "darker-gray"
   }
 
