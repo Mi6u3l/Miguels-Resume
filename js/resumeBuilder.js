@@ -28,28 +28,28 @@ var work = {
 			"title": "Software Engineer",
 			"location": "Lisbon, Portugal",
 			"dates": "2011 - 2012",
-			"description": "Technical architecture analysis for web based applications;<br>Software development team coordination;<br>Monitoring and assisting delivery of development tasks;<br>Software Development (C# .net, JavaScript, SQL Server, SharePoint);<br>SharePoint Consultancy."
+			"description": "Technical architecture analysis for web based applications;<br>Software development team coordination;<br>Monitoring and assisting delivery of development tasks;<br>Software Development (C# .net, SQL Server, SharePoint);<br>SharePoint Consultancy."
 		},
 		{
 			"employer": "Truewind",
 			"title": "Software Engineer",
 			"location": "Lisbon, Portugal",
 			"dates": "2010 - 2011",
-			"description": "Technical architecture analysis for web based applications;<br>Software Development (C# .net, JavaScript, SQL Server, SharePoint);<br>SharePoint Consultancy."
+			"description": "Technical architecture analysis for web based applications;<br>Software Development (C# .net, SQL Server, SharePoint);<br>SharePoint Consultancy."
 		},
 		{
 			"employer": "Indra",
 			"title": "Software Engineer",
 			"location": "Lisbon, Portugal",
 			"dates": "2008 - 2010",
-			"description": "Technical analysis for software bespoke developments;<br>Software Development (C# .net, JavaScript, SQL Server, SharePoint)."
+			"description": "Technical analysis for software bespoke developments;<br>Software Development (C# .net, SQL Server, SharePoint)."
 		},
 		{
 			"employer": "Deloitte",
 			"title": "Consultant",
 			"location": "Lisbon, Portugal",
 			"dates": "2006 - 2008",
-			"description": "Technical analysis for software bespoke developments;<br>Software Development (C# .net, JavaScript, SQL Server, SharePoint)."
+			"description": "Technical analysis for software bespoke developments;<br>Software Development (C# .net, SQL Server, SharePoint)."
 		}
 
 	]
