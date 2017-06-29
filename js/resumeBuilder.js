@@ -21,35 +21,35 @@ var work = {
 			"title": "Team Lead",
 			"location": "Dublin, Ireland",
 			"dates": "2012 - 2015",
-			"description": "Technical architecture analysis for web based applications;<br>Software development team coordination;<br>Monitoring and assisting delivery of development tasks;<br>Software Development (HTML5, CSS3, JavaScript, C# .net, SQL Server, SharePoint);<br>SharePoint Consultancy."
+			"description": "Technical architecture analysis for web based applications;<br>Software development team coordination;<br>Monitoring and assisting delivery of development tasks;<br>Software Development (HTML5, CSS3, JavaScript, C# .NET, SQL Server, SharePoint);<br>SharePoint Consultancy."
 		},
 		{
 			"employer": "Portugal Telecom",
 			"title": "Software Engineer",
 			"location": "Lisbon, Portugal",
 			"dates": "2011 - 2012",
-			"description": "Technical architecture analysis for web based applications;<br>Software development team coordination;<br>Monitoring and assisting delivery of development tasks;<br>Software Development (C# .net, SQL Server, SharePoint);<br>SharePoint Consultancy."
+			"description": "Technical architecture analysis for web based applications;<br>Software development team coordination;<br>Monitoring and assisting delivery of development tasks;<br>Software Development (C# .NET, SQL Server, SharePoint);<br>SharePoint Consultancy."
 		},
 		{
 			"employer": "Truewind",
 			"title": "Software Engineer",
 			"location": "Lisbon, Portugal",
 			"dates": "2010 - 2011",
-			"description": "Technical architecture analysis for web based applications;<br>Software Development (C# .net, SQL Server, SharePoint);<br>SharePoint Consultancy."
+			"description": "Technical architecture analysis for web based applications;<br>Software Development (C# .NET, SQL Server, SharePoint);<br>SharePoint Consultancy."
 		},
 		{
 			"employer": "Indra",
 			"title": "Software Engineer",
 			"location": "Lisbon, Portugal",
 			"dates": "2008 - 2010",
-			"description": "Technical analysis for software bespoke developments;<br>Software Development (C# .net, SQL Server, SharePoint)."
+			"description": "Technical analysis for software bespoke developments;<br>Software Development (C# .NET, SQL Server, SharePoint)."
 		},
 		{
 			"employer": "Deloitte",
 			"title": "Consultant",
 			"location": "Lisbon, Portugal",
 			"dates": "2006 - 2008",
-			"description": "Technical analysis for software bespoke developments;<br>Software Development (C# .net, SQL Server, SharePoint)."
+			"description": "Technical analysis for software bespoke developments;<br>Software Development (C# .NET, SQL Server, SharePoint)."
 		}
 
 	]
@@ -184,7 +184,7 @@ var bio = {
 	"first name": "Miguel",
 	"last name": "Gomes",
 	"role": "Full-Stack Web Developer",
-	"welcome message": "I've been working the last 10 years as a Software developer - C# .Net, SharePoint, JavaScript, HTML, CSS.",
+	"welcome message": "I've been working the last 10 years as a Software developer - C# .NET, SharePoint, JavaScript, HTML, CSS.",
 	"contacts": 
 		{
 			"mobile number": "+351 96 300 10 24" ,
@@ -192,7 +192,7 @@ var bio = {
 			"github username": "mi6u3l",
 			"location": "Barcelona, Spain"
 		},
-	"skills": ["HTML", "CSS", "JavaScript", "jQuery", "C#.net", "SharePoint", "Scrum"]
+	"skills": ["HTML", "CSS", "JavaScript", "jQuery", "C#.NET", "SharePoint", "Scrum"]
 
 };
 bio.display = function(){
@@ -322,7 +322,7 @@ var polarData = [
     value: 8,
     color: "#949FB1",
     highlight: "#A8B3C5",
-    label: "C#.net",
+    label: "C#.NET",
     labelcolor: "gray"
   },
   {
